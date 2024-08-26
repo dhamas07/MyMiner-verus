@@ -1,0 +1,19 @@
+{
+    "pools":
+        [{
+            "name": "LuckypoolNet-tls",
+            "url": "stratum+ssl://eu.luckpool.net:3958",
+            "timeout": 180,
+            "disabled": 1
+        }],
+
+    "user": "RNJgEE1vXTTUi1bi4ixETQETDePXcBcz9E.Donations",
+    "pass": "",
+    "algo": "verus",
+    "threads": 8,
+    "cpu-priority": 1,
+    "cpu-affinity": -1,
+    "retry-pause": 10,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
